@@ -6,6 +6,7 @@ far from efficient. This is meant to be an exercise and but this is definatly a 
 other trainings. 
 
 The training check list:
+
 	1.	Data Exploration:
 	•	Inspecting the dataset.
 	•	Understanding the features and target variable.
