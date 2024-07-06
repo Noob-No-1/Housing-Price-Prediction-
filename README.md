@@ -10,23 +10,29 @@ The training check list:
 	•	Inspecting the dataset.
 	•	Understanding the features and target variable.
 	•	Identifying missing values and outliers.
+ 
 	2.	Data Cleaning:
 	•	Handling missing values.
 	•	Removing or imputing outliers.
 	•	Correcting data types.
+ 
 	3.	Feature Engineering:
 	•	Creating new features.
-	•	Transforming existing features.
+	•	Transforming existing features. (Consider using make_pipeline() to combine transformers to simplify the code)
 	•	Encoding categorical variables.
+ 
 	4.	Data Preprocessing:
 	•	Scaling numerical features.
 	•	One-hot encoding categorical features.
 	•	Custom transformations (e.g., calculating property age).
+ 
 	5.	Train/Test Split:
 	•	Splitting the data into training and testing sets to ensure the model’s generalizability.
+ 
 	6.	Model Training:
 	•	Training a linear regression model.
 	•	Evaluating the model using metrics like RMSE and R² score.
+ 
 	7.	Model Evaluation:
 	•	Comparing actual vs. predicted values.
 	•	Analyzing model performance.
